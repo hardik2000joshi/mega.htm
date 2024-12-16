@@ -7,17 +7,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <style>
-        
-       ul {
-            text-align: right;
-        }
-        li {
-            display: inline-block;
-            color: grey;
-            padding-right: 30px;
-        }
-        .book li{
-            padding: 10px 15px;
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}      
+
+.sticky li {
+    position: sticky;
+  display: inline-block;
+  margin:  10px;
+  padding: 10px;
+  text-align: right;
+}
+        /*.book li{
             color: white;
             border-radius: 25px;
             background-color: #d63384;
@@ -27,7 +30,7 @@
             color: white;
             border-radius: 25px;
             background-color: #d63384;
-         }
+         }*/
         .training {
             font: 38.485px  "plus jakarta sans", sans-serif;
             margin-left: 24px;
@@ -277,13 +280,13 @@
     <div>
         <div class="Menu">
             <ul>
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>Courses</li></a>
-                <a href="#"><li>Blogs</li></a>
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Contact us</li></a>
-                <a href="#" class="acts"><li>Join Now</li></a>
-                <a href="#" class="book"><li>Book Demo</li></a>
+                <a href="#" class="sticky"><li>Home</li></a>
+                <a href="#" class="sticky"><li>Courses</li></a>
+                <a href="#" class="sticky"><li>Blogs</li></a>
+                <a href="#" class="sticky"><li>About</li></a>
+                <a href="#" class="sticky"><li>Contact us</li></a>
+                <a href="#" class="sticky"><li>Join Now</li></a>
+                <a href="#" class="sticky"><li>Book Demo</li></a>
             </ul>
             </div>
             <div class="heading">
